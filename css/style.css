@@ -881,8 +881,9 @@ h5,
   color: #212529;
 }
 
-.site-mobile-menu .site-nav-wrap a:hover {
-  color: var(--base-bg-color);
+.site-mobile-menu .site-nav-wrap > li:not(.active) > a:hover{
+  color: var(--deep-purple_darken-1) !important;
+  padding-left: 1rem;
 }
 
 .site-mobile-menu .site-nav-wrap li {
