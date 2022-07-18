@@ -32,7 +32,7 @@ a:hover {
 .btn-primary {
   color: #fff !important;
   background-color: var(--deep-purple_darken-1) !important;
-  border-color: var(--deep-purple_lighten-1) !important;
+  border: 2px solid var(--deep-purple_lighten-1) !important;
 }
 
 .btn-primary:hover {
